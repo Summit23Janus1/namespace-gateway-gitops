@@ -1,0 +1,15 @@
+app:
+  name: namespace-poi-gateway-app
+  namespace: namespace
+  cluster: .apps.summit23rock.n26o.p1.openshiftapps.com
+
+git:
+  branch: main
+  repo: https://github.com/Summit23Janus1/namespace-gateway
+  org: Summit23Janus1
+  name: namespace-gateway
+
+image:
+  host: image-registry.openshift-image-registry.svc:5000
+  name: namespace/poi-gateway-app
+  tag: latest
